@@ -2,7 +2,6 @@
 #SBATCH -p short -N 1 -n 16 --mem 32gb --out logs/make_gvcf.%a.log --time 2:00:00 -a 1,2
 
 module load picard
-module load java/13
 module load gatk/4
 module load bcftools
 

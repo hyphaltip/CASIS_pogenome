@@ -4,11 +4,8 @@
 hostname
 MEM=24g
 
-module unload R
-module unload java
 module load picard
 module load gatk/4
-module load java/13
 module load bcftools
 module load parallel
 module load yq
